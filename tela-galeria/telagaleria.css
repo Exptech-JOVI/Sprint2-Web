@@ -1,0 +1,227 @@
+#containercelular{
+position: absolute;
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Pixel_2_XL_front.svg/330px-Pixel_2_XL_front.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20250204005637);
+background-repeat: no-repeat;
+width: 328px;
+height: 669px; 
+margin: 0;
+padding: 0; 
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+#containertela{
+background-color: transparent;
+position: absolute;
+width: 290px;
+height: 580px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 5%;
+}
+#hotbarUP{
+position: absolute;
+background-color: rgb(0, 0, 0);
+top: -1px;
+width: 100%;
+height: 35%;
+}
+#tela{
+position: absolute;
+background-size: 300px; 
+width: 100%;
+height: 66%;
+top: 35%;
+left: 0%;
+background-repeat: no-repeat;
+background-color: rgb(0, 0, 0);
+}
+.f{
+position: relative;
+width: 68px;
+height: 73px;
+top: 5px;
+background-color: transparent;
+align-items: center; 
+display: inline-flex;
+
+}
+#f1{
+background-image: url(/icons2/image.jpg);
+background-repeat: no-repeat;
+background-size: 85px;
+}
+#f2{
+background-image: url(/icons2/image2.webp);
+background-repeat: no-repeat;
+background-size: 110px;
+}
+#f3{
+background-image: url(/icons2/image3.webp);
+background-repeat: no-repeat;
+background-size: 140px;
+
+}
+#f4{
+background-image: url(/icons2/image4.jpg);
+background-repeat: no-repeat;
+background-size: 100px;
+}
+#f5{
+background-image: url(/icons2/image5.jpg);
+background-repeat: no-repeat;
+background-size: 107px;
+}
+#f6{
+background-image: url(/icons2/image6.webp);
+background-repeat: no-repeat;
+background-size: 100px;
+}
+#f7{
+background-image: url(/icons2/image7.jpg);
+background-repeat: no-repeat;
+background-size: 100px;
+}
+#f8{
+background-image: url(/icons2/image8.jpg);
+background-repeat: no-repeat;
+background-size: 100px;
+}
+#f9{
+background-image: url(/icons2/image9.jpg);
+background-repeat: no-repeat;
+background-size: 105px;
+}
+#f10{
+background-image: url(/icons2/image10.webp);
+background-repeat: no-repeat;
+background-size: 100px;
+}
+#f11{
+background-image: url(/icons2/image11.webp);
+background-repeat: no-repeat;
+background-size: 100px;
+}
+#f12{
+background-image: url(/icons2/image12.webp);
+background-repeat: no-repeat;
+background-size: 113px;
+}
+#f13{
+background-image: url(/icons2/image13.jpg);
+background-repeat: no-repeat;
+background-size: 110px;
+}
+#f14{
+background-image: url(/icons2/image14.jpg);
+background-repeat: no-repeat;
+background-size: 85px;
+}
+#f15{
+background-image: url(/icons2/image15.jpg);
+background-repeat: no-repeat;
+background-size: 85px;
+}
+#f16{
+background-image: url(/icons2/image9.jpg);
+background-repeat: no-repeat;
+background-size: 110px;
+}
+#f17{
+background-image: url(/icons2/image17.jpg);
+background-repeat: no-repeat;
+background-size: 100px;
+}
+#f18{
+background-image: url(/icons2/image.jpg);
+background-repeat: no-repeat;
+background-size: 85px;
+}
+#f19{
+background-image: url(/icons2/image18.webp);
+background-repeat: no-repeat;
+background-size: 100px;
+}
+#f20{
+background-image: url(/icons2/image15.jpg);
+background-repeat: no-repeat;
+background-size: 85px;
+}
+
+#bateria{
+position: absolute;
+width: 100%;
+height: 13%;
+top: 1px;
+background-color: transparent;
+background-image: url(/icons2/bateria.png);
+background-size: 299px;
+background-repeat: no-repeat;
+}
+#fotof1{
+position: absolute;
+top: 35%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 70px;
+height: 70px;
+border-radius: 20%;
+background-color: transparent;
+background-image: url(/icons/image5.png);
+background-repeat: no-repeat;
+background-size: 100px;
+
+}
+#pastamovimento{
+position: absolute;
+top: 80px;
+left: 30px;
+font-size: 27px;
+color: white;
+}
+#parimagens{
+position: absolute;
+top: 123px;
+left: 105px;
+color: gray;
+font-size: 17px;
+}
+#voltar{
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: transparent;
+top: 165px;
+left: 10px;
+background-image: url(/icons/image10.png);
+background-repeat: no-repeat;
+background-size: 10px;
+background-position: 5px;
+}
+
+#aleatorio1{
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: transparent;
+top: 165px;
+left: 220px;
+background-image: url(/icons/lupa.png);
+background-repeat: no-repeat;
+background-size: 30px;
+background-position: 0px 2px;
+
+}
+#aleatorio2{
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: transparent;
+top: 165px;
+left: 255px;
+background-image: url(/icons/botaotrespontos.png);
+background-repeat: no-repeat;
+background-size: 5px;
+background-position: 12px 6px;
+}

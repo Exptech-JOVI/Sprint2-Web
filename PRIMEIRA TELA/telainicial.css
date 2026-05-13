@@ -1,0 +1,222 @@
+
+
+#containercelular{
+position: absolute;
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Pixel_2_XL_front.svg/330px-Pixel_2_XL_front.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20250204005637);
+background-repeat: no-repeat;
+width: 328px;
+height: 669px; 
+margin: 0;
+padding: 0; 
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+#containertela{
+background-color: transparent;
+position: absolute;
+width: 290px;
+height: 580px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 5%;
+}
+#hotbarUP{
+position: absolute;
+background-color: rgb(0, 0, 0);
+top: -1px;
+width: 100%;
+height: 10%;
+}
+#tela{
+position: absolute;
+background-image: url(/icons/image5.png);
+background-size: 300px; 
+width: 100%;
+height: 66%;
+top: 10%;
+left: 0%;
+background-repeat: no-repeat;
+
+}
+#bttns{
+position: absolute;
+background-color: white;
+width: 100%;
+height: 5%;
+top: 69%;
+}
+#bttns1{
+position: absolute;
+width: 70px;
+height: 30px;
+top: 5px;
+left: 35%;
+background-image: url(/icons/bttns1.png);    
+background-repeat: no-repeat;
+background-size: 70px;
+}
+#bttns2{
+position: absolute;
+width: 70px;
+height: 30px;
+top: 5px;
+left: 43%;
+background-image: url(/icons/bttns2.png);    
+background-repeat: no-repeat;    
+background-size: 23px;
+}
+#bttns3{
+position: absolute;
+width: 25px;
+height: 25px;
+background-color: transparent;
+left: 86%;
+top: 2px;
+background-image: url(/icons/bttns3.png);
+background-repeat: no-repeat;
+background-size: 30px;
+background-position: -2px;
+}
+
+#B1{
+background-image: url(/icons/image2.png);
+background-size: 280px;
+background-repeat: no-repeat;
+position: absolute;
+width: 100%;
+height: 100%;
+left: 5px;
+top: 20px;
+}
+
+#hotbardown{
+position: absolute;
+background-color: rgb(0, 0, 0);
+width: 100%;
+height: 24%;
+bottom: -1px;
+
+
+}
+#N1{
+position: absolute;
+background-color: rgb(2, 0, 0) ;
+width: 100%;
+height: 15%;
+top: -6px;
+left: -5px;
+margin: 5px;
+padding-top: 5px;
+border: black;
+
+}
+.n{
+position: relative;
+font-size: 16px;
+color: rgba(253, 253, 253, 0.849);
+align-items: center;
+justify-content: space-around;
+left: 4px;
+margin-left: 6px;
+
+}
+
+
+#nblue{
+color: #5779FF;
+
+}
+#N2{
+position: absolute;
+background-color: rgb(0, 0, 0);
+top:24px;
+width: 100%;
+height: 40%;
+justify-content: space-between;
+}
+#f1{
+position: absolute;
+width: 50px;
+height: 50px;
+background-color: rgb(250, 255, 255);
+border-radius: 100%;
+top: 14px;
+left: 118px;
+border: white;
+}
+#f2{
+position: absolute;
+width: 35px;
+height: 35px;
+background-color: #222222;
+border-radius: 100%;
+top: 18px;
+left: 20px;
+background-image: url(/icons/image4.png);
+background-size: 18px;
+background-position: 8px ;
+background-repeat: no-repeat;
+border: black;
+}
+#f3{
+position: absolute;
+width: 35px;
+height: 35px;
+border-radius: 100%;
+top: 18px;
+left: 230px;
+background-image: url(/icons/image3.png);
+background-repeat: no-repeat;
+background-size: 35px;
+border: black;
+}
+#N3{
+position: absolute;
+background-color: rgb(0, 0, 0);
+width: 100%;
+height: 40px;
+bottom: 5px;
+justify-content: space-around;
+align-items: center;
+}
+#f4{
+position: absolute;
+left: 9%;
+top: 4px;
+width: 35px;
+height: 35px;
+background-color: black;
+background-image: url(/icons/image9.png);
+background-size: 24px;
+background-position: 5px;
+background-repeat: no-repeat;
+border: none;
+}
+#f5{
+position: absolute;
+left: 44%;
+top: 4px;
+width: 35px;
+height: 35px;
+background-color: rgb(0, 0, 0);
+background-image: url(/icons/image8.png);
+background-size: 25px;
+background-position: 5px;
+background-repeat: no-repeat;
+border: none
+}
+#f6{
+position: absolute;
+left: 80%;
+top: 4px;
+background-color: rgb(0, 0, 0);
+background-image: url(/icons/image10.png);
+background-size: 11px;
+background-position: 7px;
+background-repeat: no-repeat;
+border: none;
+width: 35px;
+height: 35px;
+}
