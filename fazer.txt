@@ -1,0 +1,6 @@
+login ao escolher botao criar pasta - login direto no celular - OK
+notificação via alert da criação de pasta e pdf
+ao entrar na pasta, se voltar o botao desabilita
+os 3 pontinhos ao clicar vem um alert que recebe um novo nome para a pasta - OK
+galeria - flexbox, aumentar o tamanho para fazer slideshow com as fotos da pasta - OK
+ 
