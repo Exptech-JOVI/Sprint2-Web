@@ -259,3 +259,18 @@ font-size: 15px;
     pointer-events: all; 
     cursor: pointer;      
 }
+
+/* notificação pasta*/
+.notificacao-icone-pasta {
+    width: 25px;
+    height: 25px;
+    background-image: url(/icons/image9.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+}
+
+.popup-topo:not(.disable) {
+    pointer-events: all;
+    cursor: pointer;
+}
