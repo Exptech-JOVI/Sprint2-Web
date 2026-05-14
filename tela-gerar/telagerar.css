@@ -145,7 +145,7 @@ background-size: 12px;
 background-position: 7px;    
 }
 
-// popup js
+/* login popup */
 .popup{
 display: flex;
 top: 0;
@@ -206,4 +206,56 @@ border: none;
 border-radius: 8px;
 cursor: pointer;
 font-size: 15px;
+}
+
+/* notificação*/
+.popup-topo {
+    position: absolute;
+    top: 5%; 
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    transition: 0.3s;
+    pointer-events: none; 
+}
+
+.notificacao-box {
+    width: 90%;
+    background-color: rgba(34, 34, 34, 0.95); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #444;
+}
+
+.notificacao-icone {
+    width: 25px;
+    height: 25px;
+    background-image: url(/icons/PDF-N1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+}
+
+.notificacao-box p {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+.disable {
+    opacity: 0;
+    transform: translateY(-20px); 
+}
+
+.popup-topo:not(.disable) {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all; 
+    cursor: pointer;      
 }

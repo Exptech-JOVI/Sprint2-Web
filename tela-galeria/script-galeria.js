@@ -30,7 +30,16 @@ salvarPasta.addEventListener("click", function(){
     if(novoNome !== null && novoNome !== ""){
 
         nomePasta.textContent = novoNome;
+        localStorage.setItem("novo", novoNome);
     }
     popupPasta.classList.add("disable");
 
+});
+
+// novo nome localstorage
+window.addEventListener("load", function() {
+    const salvo = localStorage.getItem("novo");
+    if (salvo) {
+        nomePasta.textContent = salvo;
+    }
 });

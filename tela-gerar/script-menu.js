@@ -33,7 +33,7 @@ let usuario = usuarioInput.value;
 let senha = senhaInput.value;
  
 if(usuario === "admin" && senha === "123"){
- 
+localStorage.setItem("pastaCriada", "true")
 window.location.href = "/tela-galeria/telagaleria.html";
  
 }else{
@@ -44,3 +44,32 @@ alert("usuario ou senha incorretos!");
  
 });
  
+/*
+document.addEventListener("DOMContentLoaded", function() {
+    //const botao = document.getElementById("btN4");
+    
+    if (localStorage.getItem("pastaCriada") === "true") {
+        botao.style.backgroundImage = "url('/icons/btn4Visualizar.png')";
+        // tamanho
+        botao.style.backgroundSize = "78px"; 
+    }
+});
+*/
+
+// notificação
+const botaoPDF = document.getElementById("btN3");
+const notificacao = document.getElementById("notificacaoPDF");
+
+botaoPDF.addEventListener("click", function(event) {
+    event.preventDefault(); 
+
+    notificacao.classList.remove("disable");
+
+    setTimeout(function() {
+        notificacao.classList.add("disable");
+    }, 5000);
+});
+
+notificacao.addEventListener("click", function() {
+    window.location.href = "/tela-pdf/telapdf.html";
+});
