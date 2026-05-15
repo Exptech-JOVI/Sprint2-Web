@@ -233,7 +233,7 @@ font-size: 15px;
 .notificacao-icone {
     width: 25px;
     height: 25px;
-    background-image: url(/icons/PDF-N1.png);
+    background-image: url(/icons/pdf-not.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 12px;
@@ -262,7 +262,7 @@ font-size: 15px;
 .notificacao-icone-pasta {
     width: 25px;
     height: 25px;
-    background-image: url(/icons/image9.png); 
+    background-image: url(/icons/pasta-not.png); 
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 12px;

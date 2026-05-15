@@ -45,5 +45,13 @@ window.addEventListener("load", function() {
     const salvo = localStorage.getItem("novo");
     if (salvo) {
         nomePasta.textContent = salvo;
+
+        if(salvo.length < 18){
+        nomePasta.style.left = "50%";
+        nomePasta.style.transform = "translateX(-50%)";
+        } else {
+            nomePasta.style.left = "30px";
+            nomePasta.style.transform = "none";
+        }
     }
 });
