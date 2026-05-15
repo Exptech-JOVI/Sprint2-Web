@@ -1,7 +1,7 @@
 const container = document.querySelector('.slideshow-container');
 const imagens = document.querySelectorAll('.f');
 let index = 0;
-const temp = 3000; 
+const temp = 2000; 
 
 function proximo() {
     index++;
@@ -10,7 +10,7 @@ function proximo() {
         index = 0;
     }
 
-    const tam = imagens[0].offsetWidth + 15; 
+    const tam = imagens[0].offsetWidth; 
     container.scrollTo({
         left: index * tam,
         behavior: 'smooth' 
@@ -19,6 +19,6 @@ function proximo() {
 
 let slide = setInterval(proximo, temp);
 
-// pausa quando usuario mexe
+// pausar
 container.addEventListener('mousedown', () => clearInterval(slide));
 container.addEventListener('touchstart', () => clearInterval(slide));

@@ -51,18 +51,13 @@ entrar.addEventListener("click", function(event){
         //window.location.href = "telagerar.html";
     }
 });
- 
 
-/*document.addEventListener("DOMContentLoaded", function() {
-    //const botao = document.getElementById("btN4");
+document.addEventListener("DOMContentLoaded", function() {
     
     if (localStorage.getItem("pastaCriada") === "true") {
-        botao.style.backgroundImage = "url('/icons/btn4Visualizar.png')";
-        // tamanho
-        botao.style.backgroundSize = "78px"; 
+        botao.style.backgroundImage = "url('/icons/btnVisualizar.png')";
     }
 });
-*/
 
 // notificação
 botaoPDF.addEventListener("click", function(event) {
